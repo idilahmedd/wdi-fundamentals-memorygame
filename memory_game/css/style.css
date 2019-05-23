@@ -10,15 +10,17 @@ title {
 header {
 	padding: 30px 20px 30px 20px;
 	background-color: #F15B31;
+	text-transform: uppercase;
+	font-family: raleway;
 }
 h1 {
-	font-family: Raleway;
+	font-family: raleway;
 	color: #FFFFFF;
-	letter-spacing: 1px;
+	letter-spacing: 4px;
 	font-weight: 600px;
 	font-size: 48px;
 	margin: 0;
-	
+	text-transform: uppercase;	
 }
 h2 {
 	font-family: Raleway;
@@ -26,6 +28,7 @@ h2 {
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
+	text-transform: uppercase;
 }
 p {
 	font-family: droid serif;
@@ -41,11 +44,15 @@ body {
 nav {
 	background-color: #00a6b3;
 	padding: 20px;
-	
+	border-bottom: 2px solid transparent;
+	text-transform: uppercase;
+	font-family: Raleway;
 }
 a {
 	margin: 0 20px 0 20px;
-	color: #FFFFFF;
+	
+}
+
 }
 main {
 	text-align: center;
@@ -57,24 +64,29 @@ img {
 }
 footer {
 	text-transform: uppercase;
-	padding: 0 20px 0 20px;
+	padding: 0px 20px;
 	background-color: #0D2C40;
-	color: #FFFFFF;
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500;
+	color: #FFFFFF;
+	
 }
-
+div {
+	padding: 20px 30px;
+}
 .copyright {
+	
 	float: left;
 	font-family: raleway;
 }
 .message {
+	
 	float: right;
 	font-family: raleway;
 }
 
-.clearfix: after {
+.clearfix:after {
 	visibility: hidden;
 	display: block;
 	content: " ";
@@ -85,9 +97,6 @@ footer {
 .name {
 	color: #F15B31;
 	font-weight: 700;
-}
-nav {
-	border-bottom:2px solid transparent;
 }
 
 a:hover {
